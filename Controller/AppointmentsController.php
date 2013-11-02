@@ -21,8 +21,9 @@ class AppointmentsController extends AppController {
  * @return void
  */
 	public function index() {
-		$this->Appointment->recursive = 0;
-		$this->set('appointments', $this->Paginator->paginate());
+		//$this->Appointment->recursive = 0;
+		$this->set('appointments', $this->Appointment->find('all',array('order'=> 'Appointment.fecha desc')));
+		//$this->set ('appointments')
 	}
 
 /**

@@ -1,0 +1,44 @@
+2013-11-02 16:54:50 Error: [MissingActionException] Action AppointmentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => 'display',
+)
+Request URL: /taller3/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/taller3/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-02 16:55:35 Error: [MissingActionException] Action AppointmentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => 'display',
+)
+Request URL: /taller3/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/taller3/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-02 16:55:39 Error: [MissingActionException] Action AppointmentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => 'display',
+)
+Request URL: /taller3/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/taller3/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-02 16:59:21 Error: [MissingActionException] Action AppointmentsController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => 'display',
+)
+Request URL: /taller3/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/html/taller3/webroot/index.php(101): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
